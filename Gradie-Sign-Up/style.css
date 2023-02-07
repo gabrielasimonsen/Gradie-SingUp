@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url("styles/mobile.css");
+@import url("styles/tablet.css");
+@import url("styles/desktop.css");
+
+:root {
+    --background: #013243;
+    --background-white: #FFFFFF;
+    --text-black: #000000;
+    --text-white: #FFFFFF;
+    --text-blue: #86BFD3;
+    --text-grey: #8D8D8D;
+    --border: #BCBCBC;
+
+    --font-principal: 'Roboto', sans-serif;
+    --font-login:'DM Sans', sans-serif;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-principal);
+}
+
+body {
+    background-image: url("Assets/Background.png");
+    background-repeat: no-repeat;
+}
